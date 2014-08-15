@@ -1,0 +1,61 @@
+\documentclass[a4paper,10pt,titlepage]{article}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{comment} 
+\usepackage{wrapfig}
+\usepackage[none]{hyphenat}
+\sloppy
+ 
+\begin{document}
+
+\title{\Huge Interpretatie van Computerprograma's II (2013-2014)}
+\date{}
+\author{ \\ \Huge Examenopdracht:  \\ \\ 
+			\Huge Meerdimensionale tabellen in Pico \\ \\ \\ \\ \\  \\ \\ \\
+				Vincent De Schutter\\ \\ \\
+					$2^{de}$ Bachelor in de Computerwetenschappen \\
+					Faculteit Wetenschappen en Bio-ingenieurswetenschappen
+						\\Vrije Universiteit Brussel
+						\\ \\ \includegraphics[scale=0.2]{/Users/vincentdeschutter/Documents/VUB/Computerwetenschappen/Varia/logoVUB.jpg}
+        						\\ \\{vdeschut{@}vub.ac.be}
+        						\\  {\normalsize Rolnr: 101750}}
+
+
+\maketitle
+
+
+\tableofcontents
+
+
+\section{Inleiding}
+
+In dit document zal er dieper ingegaan worden op de implementatie van multidimensionale tabellen of matrices in Pico. Deze multidimensionale tabellen worden intern echter niet voorgesteld als geneste tabellen, maar doormiddel van vlakke \'e\'en chunk. Deze chunk is een lineaire representatie van de matrix, desalniettemin is het mogelijk voor de gebruiker om de matrix te hanteren aan de hand van rij- en kolomindices. \\
+Deze modificatie werd zowel uitgewerkt op de metacirculaire versie van Pico, als op de oorspronkelijke C-versie van Pico. Het eerste deel van dit document handelt over deze metacirculaire versie, in Pico zelf. Het tweede deel verdiept zich in de C-versie.
+
+\section{Metacirculaire versie}
+
+
+
+\subsection{Read}
+
+\subsection{Eval}
+
+\subsection{Print}
+
+\subsection{Natives}
+
+\section{C-versie}
+
+\subsection{Read}
+
+\subsection{Eval}
+
+\subsection{Print}
+
+\subsection{Natives}
+
+\section{Slot}
+
+Aangezien dit nog maar de eerste fase van het systeem is, zijn er nog veel elementen die toegevoegd zullen worden. Onder andere een uitgebreidere GUI, een communicatieprotocol aan het hand van ports tussen de majordomo en de verschillende stewards en intelligente apparaten.
+
+\end{document}
